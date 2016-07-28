@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 5rem;
+}
+
+input, label {
+  display: block;
+  clear: both;
+}
+
+input, button {
+  height: 2rem;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+button {
+  border: 1px solid rgb(200, 100, 20);
+  background-color: rgb(241, 146, 72);
+  color: #EEE;
+}
+
+#status {
+  color: rgb(241, 146, 72);
+}

@@ -1,0 +1,22 @@
+{
+"manifest_version": 7,
+    "name": "NoDaPulse",
+    "description": "Get rid of the stupid name",
+    "version": "0.4",
+    "options_page": "src/options/index.html",
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
